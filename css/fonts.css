@@ -1,0 +1,40 @@
+/* donts: propiedades que maneja neustro doc en */
+/*se importa desde gugle fonts*/
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Chorasmian&display=swap');
+@font-face {
+    font-family:'RubikPuddles-Regular.ttf';
+    src: url('../fonts/RubikPuddles-Regular.ttf');
+}
+
+ .p1{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Haettenschweiler,
+     Arial Bold, sans-serif; font-style: italic;
+  font-size 16x; }
+ .p2{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+ font-size: 35x;
+ width: 300px;
+ height: 300px;
+ border: 3px solid;   
+ 
+ }
+ .p3{font-family: Verdana, Geneva, Tahoma,'Trebuchet MS', 'Lucida Sans Unicode',
+     'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-size: 3xrem; 
+ }
+ .p4{
+    font-size: 8vw;
+    font-family: 'Roboto';
+  }
+  .p5{
+    font-size: 5vw;
+    font-family: 'Noto Sans Chorasmian', cursive;
+  .p6{
+    font-size: 3vw;
+    font-family: 'RubikPuddles-Regular.ttf' ;
+  }
+ /*body {font-size: 100%;}*/
+ .p{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+ }

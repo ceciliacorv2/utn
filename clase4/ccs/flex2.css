@@ -1,0 +1,46 @@
+body{
+    background-color: aquamarine;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+/* el flexbox es responsivo*/
+.menunav{
+  display: flex;
+  justify-content: space-around;
+}
+.contenedorpadre{
+    display: flex;
+    padding: 20px;
+    background-color: azure;
+    flex-direction:row;
+   /* flex-direction: row-reverse;
+   flex-direction: column-reverse;
+   flex-wrap: wrap-reverse;
+    flex-wrap: nowrap; /*no salta de linea
+    flex-wrap: wrap; */
+/*justify-content: flex-start; /*inicia todo a la izq (este y el wrap seria q x default se acoomda
+  justify-content: flex-end;
+  justify-content: center;
+ /* justify-content: space-around;/*separa lo elementos hijos*/
+  justify-content: space-between;
+  justify-content: space-evenly;
+  align-content: end;
+  padding: 20px;
+}
+.contenedorpadre div{
+width: 200px;
+height: 200px;
+background-color: blueviolet;
+border: 1px solid black;
+font-size: 30px;
+text-align: center;
+/*margin: 15px;*/
+
+.hijo{
+  width: 200px;
+height: 200px;
+}
+}
